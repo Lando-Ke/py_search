@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+        <title>Search</title>
+	</head>
+	
+	<body>
+		<form action="/cgi-bin/search.py" method="POST">
+            <p>
+                Enter a keyword, several keywords, or a keyword phrase in quotes and select search type. <br />
+				Example: <i>red green blue</i><br />
+				Example: <i>"one two" three</i><br />
+				<br />
+				AND or OR: 
+				<select name="boolean">
+					<option>AND<option>OR
+				</select>
+				Case 
+				<select name="case">
+					<option>Insensitive<option>Sensitive
+				</select>
+				<br>
+				<input type="text" name="terms"  size="50">
+				<br>
+				<input type="submit" value="Search">
+			</p>
+        </form>
+	</body>
+</html>
