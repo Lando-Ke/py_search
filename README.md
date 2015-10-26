@@ -1,6 +1,6 @@
 
 #Py Search
-TODO: simple search script
+simple search script
 
 #Installation
 
