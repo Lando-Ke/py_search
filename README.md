@@ -4,11 +4,11 @@ TODO: simple search script
 
 #Installation
 
-TODO: copy into web dir
+copy into web dir//can be integrated
 
 #Usage
 
-TODO: contains js/css/html/python
+contains js/css/html/python
 
 #Contributing
 
@@ -20,7 +20,7 @@ Submit a pull request :D
 
 #History
 
-TODO: Write history
+No Changes
 
 #Credits
 
