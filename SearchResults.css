@@ -7,7 +7,8 @@ search results
    background-color: yellow;
 }
 
-#search_terms {
+.search_terms {
+	color: red;
    font-weight:bold;
 }
 
