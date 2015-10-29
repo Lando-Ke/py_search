@@ -102,7 +102,7 @@ function highlightSearchTerms(searchText)
 
 
 /*
- * This function does the actual search
+ * This function does the actual searching
  */
 function doSearch()
 {
